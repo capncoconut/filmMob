@@ -1,0 +1,1215 @@
+/*
+##############################################################
+#      PARTY UP, LOVE MULITPLAYER, MAKE GREAT PRODUCT   	 #
+##############################################################
+
+/*  THE GENERALISMO */
+
+#body {
+  	background-position: fixed;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 14px;
+  	line-height: 20px;
+  	overflow: hidden;
+  	min-height: 480px;
+	text-align: justify;
+	letter-spacing: 0px;
+	color: #fff;
+}
+
+a:link {color:#82d0e5;}      /* unvisited link */
+a:visited {color:#b7b7b7;}  /* visited link */
+a:hover {color:#676767;}  /* finger over link */
+a:active {color:#676767;}  /* selected link */
+
+#wrapper {
+  	margin: 0 auto;
+  	width: 314px;
+  	min-height: 100%;
+  	position: absolute;
+  	overflow: hidden;
+}
+
+.hr {
+  	border-top: 1px dotted #ccc;
+  	left: -4px;
+  	top: 0;
+  	width: 220px;
+}
+
+.hr2 {
+  	border-top: 1px dotted #373737;
+  	left: -4px;
+  	top: 0;
+  	width: 280px;
+}
+
+.clear {
+  	clear: both;
+  	height: 0;
+}
+
+.textbar {
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	height: 33px;
+	font-size: 16px;
+	color: #676767;	
+}
+
+.textbarPro {
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border: 2px double #b2b2b2;
+	height: 24px;
+	font-size: 15px;
+	margin-top: 5px;
+	color: #676767;	
+}
+
+.textbarField {
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border: 2px double #b2b2b2;
+	height: 18px;
+	font-size: 15px;
+	margin-top: 5px;
+	color: #676767;	
+}
+
+
+.textbarBottom {
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	height: auto;
+	font-size: 15px;
+	margin-top: 5px;
+	color: #676767;	
+}
+
+.textbarSpace {
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin-bottom: 5px;
+	height: 33px;
+	font-size: 15px;
+	color: #676767;	
+}
+
+.hot {
+	color: #ea7326;
+
+}
+
+.not {
+	color: #81cfe4;
+	font-weight: bold;
+	font-size: 15px;
+
+}
+
+.green {
+	color: #80FF30;
+}
+
+.gray {
+	color: #373737;
+	font-size: 15px
+
+}
+
+.gamertagName {
+	color: #ea7326;
+	font-size: 28px;
+	margin-top: -5px;
+	font-family: font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	
+}
+
+.straightUp {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 18px;
+  	line-height: 20px;
+  	font-weight: bold;
+  	color: #373737;
+
+}
+
+
+/* === VARIOUS FLOATERS (NOT OF THE POOP KIND) === */
+
+#floatRight {
+	float: right;
+	margin-right: 12px;
+}
+
+#floatRight2 {
+	float: right;
+	margin-right: 0px;
+}
+
+#floatRight3 {
+	float: right;
+	margin-top: 5px;
+}
+
+#floatRight4 {
+	float: right;
+	margin-right: 10px;
+	margin-top: 7px;
+}
+
+#floatLeft {
+	float: left;
+}
+
+/* === HEADERS + FOOTERS LIVE HERE === */
+
+
+#header {
+  	display: block;
+  	left: -8px;
+  	margin-top: -2px;
+  	top: -7px;
+  	width: auto;
+  	position: relative;
+	z-index: 9999;
+	margin: 0;
+	border-bottom: 2px #373737;
+}
+
+#logo {
+  	display: block;
+  	position: relative;
+  	float: left;
+  	left: 0px;
+}
+
+#footer {
+	position: fixed;
+	bottom: 0; 
+	left: 0;
+	z-index: 9999;
+	background: #eee;
+	width: 100%;
+	margin: 0;
+	padding: 5px;
+}
+
+#footImg {
+	float: left;
+
+}
+
+#footSpacer {
+	width: 270px;
+	height: 22px;
+}
+		
+#littleRedBox {
+	position: absolute;
+	font-family: "Arial", sans-serif;
+	color: #fff;
+	font-size: 14px;
+	padding-top: 4px;
+	text-align: center;
+	top: 3px;
+	left: 229px;
+	z-index: 4px;
+	background-image: url(http://partyupgamer.com/m/img/littleRedBox.png);
+	background-repeat: no-repeat; 
+	background-position: center center;
+	height: 21px;
+	width: 20px;
+}
+
+
+/* === SIGN ME UP === */
+
+
+#signLine {
+	margin: 0 auto;
+	margin-right: 5px;
+	margin-bottom: 5px;
+  	width: 295px;
+  	height: auto;
+ 	border: dashed 1px #ccc;
+ 	float: left;
+ 	background-color: #fff;
+ 	font-family: "Arial" sans-serif;
+ 	font-weight: bold;
+}
+
+#signSpacer {
+	margin-top: 50px;
+	width: auto;
+}
+
+#preLoginText {
+	color: #ea7326;
+	font-size: 28px;
+	text-align: center;
+	font-family: "Helvetica Neue" sans-serif;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+#preLoginText {
+	color: #ea7326;
+	font-size: 20px;
+	text-align: center;
+	font-family: "Helvetica Neue" sans-serif;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+
+#searchSpacer {
+	margin-top: 10px;
+	width: auto;
+}
+
+#searchRighty {
+	float: right;
+	margin-right: 23px;
+	margin-top: -7px;
+
+}
+
+#loginSpacer {
+	margin-bottom: 88px;
+	width: auto;
+}
+
+#msgSpacer {
+	margin-bottom: 15px;
+	width: auto;
+}
+
+#signupBox {
+	width: 296px;
+	height: 40px;
+	float: left;
+	margin-bottom: 5px;
+	margin-top: 5px;
+
+}
+
+#signupBottom {
+	width: 276px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 20px;
+	font-family: "Arial" sans-serif;
+	font-size: 12px;
+	text-align: center;
+}
+
+#signupTop {
+	width: 290px;
+	font-family: "Arial" sans-serif;
+	text-justify: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 0px;
+	font-size: 12px;
+}
+
+#lostPass {
+	width: 276px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 10px;
+	font-family: "Arial" sans-serif;
+	font-size: 18px;
+}
+
+
+#signupMessage{
+	font-family: 'Press Start 2P', cursive;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	border: 1px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+
+}
+
+#tosMessage{
+	font-family: "Arial" sans-serif;
+	font-size: 10px;
+	text-align: center;
+
+}
+
+#gameSelectBox {
+	float: left;
+	width: 81px;
+	padding: 5px;
+	border-top: 2px dotted #E0E4CC;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+#imgLeft {
+	float: left;
+}
+
+#signupSearch {
+	float: left;
+	margin-left: 5px;
+
+}
+
+#signupAdded{
+	font-family: 'Press Start 2P', cursive;
+	min-width: 280px;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: left;
+	border: 1px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+
+
+/* === AND SO BEGINS THE JOURNEY OF THE CSS PLATFORM, WHERE FROM THE SIGNUP WE HAVE AKSHIUN === */
+
+		/* === PROFILE === */
+
+#topProfile {
+	min-width: 270px;
+	min-height: 120px;
+
+}
+
+#profileImg {
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 14px;
+	padding: 6px;
+	background: #fff;
+	width: 86px;
+	height: 86px;
+	border: 1px #ccc dotted;
+}
+
+#profileMsg {
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+
+#mainProData {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	font-size: 16px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+#eachData {
+	float: left;
+	width: 275px;
+	text-align: left;
+	margin-bottom: 7px;
+}
+
+
+#recentlyPlayed{
+	font-family: 'Press Start 2P', cursive;
+	min-width: 280px;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: left;
+	border: 1px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+
+#load {
+	float: left;
+}
+
+
+		/* === SEARCH === */
+
+#searchParameter {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 15px;
+	margin-top: 5px;
+	color: #676767;	
+	margin-left: 10px;
+	height: 32px;
+}
+
+#searchParameter1 {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 15px;
+	margin-top:-5px;
+	color: #676767;	
+	margin-left: 10px;
+	height: 36px;
+}
+
+#searchParameter2 {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 15px;
+	margin-top: 5px;
+	color: #676767;	
+	margin-left: 10px;
+	height: 72px;
+}
+	
+#searchParameterRight {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 15px;
+	margin-top: 5px;
+	float: right;
+	color: #676767;	
+	margin-right: 10px;
+	height: 40px;
+}
+	
+.textbarSearch {
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	height: auto;
+	font-size: 14px;
+	margin-top: 5px;
+	color: #676767;	
+}	
+		
+		
+		
+			/* === REVOLVER === */
+			
+#searchDynamics {
+	float: left;
+	position: relative;
+	width: 260px;
+	height: auto;
+
+}			
+		
+.bottomImg {
+	z-index: 1;
+
+}
+
+.bullet1 { 
+	position: absolute; 
+	top: 15px; 
+	right: 167px; 
+	z-index: 5;
+} 	
+	
+.bullet2 { 
+	position: absolute; 
+	top: 15px; 
+	right: 110px; 
+	z-index: 5;
+} 		
+
+.bullet3 { 
+	position: absolute; 
+	top: 67px; 
+	right: 84px; 
+	z-index: 5;
+} 	
+
+.bullet4 { 
+	position: absolute; 
+	top: 113px; 
+	right: 111px; 
+	z-index: 5;
+} 	
+
+.bullet5 { 
+	position: absolute; 
+	top: 110px;  
+	right: 169px; 
+	z-index: 5;
+} 	
+
+.redButton { 
+	position: absolute; 
+	top: 43px;  
+	right: -30px; 
+	z-index: 5;
+} 
+
+		
+		
+		/* === RESULTS === */
+		
+#eachResult {
+	float: left;
+	padding: 5px;
+}
+
+
+#profileImgResult {
+	float: left;
+	margin: 5px;
+	padding: 5px;
+	background: #fff;
+	width: 64px;
+	height: 64px;
+	border: 1px #ccc dotted;
+	z-index: 9999px;
+	
+}
+
+#GamerTagResult {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: #ea7326;
+	font-size: 24px;
+	float: left;
+	width: 180px;
+	margin-left: 10px;
+	height: 28px
+	
+}
+
+#quickMessage {
+	float: left;
+	width: 180px;
+	height: 36px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+
+#rouletteNameResult {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	text-align: center;
+	font-weight: 600;
+	color: #ea7326;
+	font-size: 24px;
+	float: left;
+	width: 300px;
+	margin-bottom: 10px;
+	
+}
+
+
+#rightRouletteInfoBox {
+	float: right;
+	height: 65px;
+	width: 65px;
+	background: #f1f1f1;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border: 2px dotted #373737;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+#wrapRouletteLeft {
+	float: left;
+	height: auto;
+	width: 75px;
+}
+
+#wrapRouletteRight {
+	float: right;
+	height: auto;
+	width: 75px;
+}
+
+
+#leftRouletteInfoBox {
+	float: left;
+	height: 70px;
+	width: 74px;
+	background: #fff;
+	text-shadow: 1px 1px #373737;
+	color: #82d0e5;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	padding-top: 5px;
+	margin-top: 0px;
+	margin-left: 5px;
+	border: 1px dotted #ccc;
+
+}
+
+#leftRouletteSex {
+	float: left;
+	height: 55px;
+	width: 74px;
+	background: #fff;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	padding-top: 15px;
+	margin-top: 5px;
+	margin-left: 5px;
+	border: 1px dotted #ccc;
+	left: 10px;
+}
+
+
+#bigAvatarus {
+	float: left;
+	height: 300px;
+	width: 150px;
+	margin-top: -22px;
+	margin-bottom: 10px;
+	margin-left: -5px;
+
+}
+
+#rouletteImgResult {
+	position: absolute;
+	margin: 5px;
+	padding: 5px;
+	background: #fff;
+	width: 64px;
+	height: 64px;
+	border: 1px #ccc dotted;
+	-moz-box-shadow: 4px 4px 30px 5px #999;
+	-webkit-box-shadow: 4px 4px 30px 5px #999;
+}
+
+#rouletteMsg {
+	float: right;
+	margin: 5px;
+	padding: 5px;
+	background: #fff;
+	width: 64px;
+	height: 64px;
+	border: 1px #ccc dotted;
+}
+
+
+		
+		/* === MESSAGING === */
+		
+#inboxMessage {
+	float: left;
+	width: auto;
+	min-width: 263px;
+	height: auto;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px dotted #ccc;
+	padding: 6px;
+	margin: 10px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 16px;
+	color: #676767;	
+	background: #fff
+}
+		
+#imgData {
+	float: left;
+	margin-left: 0px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	font-size: 16px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+
+#msgImg {
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 14px;
+	padding: 3px;
+	background: #fff;
+	width: 32px;
+	height: 32px;
+	border: 1px #ccc dotted;
+}
+
+#inboxImg {
+	float: right;
+	margin-top: 0px;
+	margin-left: 10px;
+	margin-bottom: 14px;
+	padding: 3px;
+	background: #fff;
+	width: 32px;
+	height: 32px;
+	border: 1px #ccc dotted;
+}
+
+
+#msgName {
+	color: #ea7326;
+	font-size: 24px;
+	margin-top: -5px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+
+/* === BUTTONS LIVE HERE === */
+
+.signUp {  
+	color: #fef4e9;
+	font-size: 31px;
+	height: 41px;
+	width: 250px;
+	border: solid 1px #da7c0c;
+	background: #f78d1d;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+	background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+}
+.signUp:hover {
+	background: #f47c20;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
+	background: -moz-linear-gradient(top,  #f88e11,  #f06015);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+}
+.signUp:active {
+	color: #fcd3a5;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
+	background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
+}
+
+.btnGo {  
+	color: #fef4e9;
+	font-size: 25px;
+	height: 41px;
+	width: 100px;
+	border: solid 1px #da7c0c;
+	background: #f78d1d;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+	background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+}
+.btnGo:hover {
+	background: #f47c20;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
+	background: -moz-linear-gradient(top,  #f88e11,  #f06015);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+}
+.btnGo:active {
+	color: #fcd3a5;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
+	background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
+}
+
+.btnProfile {  
+	color: #fff;
+	font-size: 17px;
+	height: 26px;
+	width: 150px;
+	border: solid 1px #da7c0c;
+	background: #f78d1d;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+	background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+}
+.btnProfile:hover {
+	background: #f47c20;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
+	background: -moz-linear-gradient(top,  #f88e11,  #f06015);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+}
+.btnProfile:active {
+	color: #fcd3a5;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
+	background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
+}
+
+.btnProfileBlue {
+	font-size: 17px;
+	height: 26px;
+	width: 150px;
+	color: #fff;
+	border: solid 1px #4d8eb1;
+	background: #4d8eb1;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	background: -webkit-gradient(linear, left top, left bottom, from(#6fc8ea), to(#4996da));
+	background: -moz-linear-gradient(top,  #6fc8ea,  #4996da);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#6fc8ea', endColorstr='#4996da');
+}
+.btnProfileBlue:hover {
+	background: #4d8eb1;
+	background: -webkit-gradient(linear, left top, left bottom, from(#4996da), to(#2e5b76));
+	background: -moz-linear-gradient(top,  #4996da,  #2e5b76);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#4996da', endColorstr='#2e5b76');
+}
+.btnProfileBlue:active {
+	color: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#2e5b76), to(#6fc8ea));
+	background: -moz-linear-gradient(top,  #2e5b76,  #6fc8ea);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#2e5b76', endColorstr='#6fc8ea');
+}
+
+.buttonProfileGreen {
+	font-size: 17px;
+	height: 26px;
+	width: 150px;
+	color: #fff;
+	border: solid 1px #a7c12c;
+	background: #a7c12c;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	background: -webkit-gradient(linear, left top, left bottom, from(#c2d763), to(#a6bd38));
+	background: -moz-linear-gradient(top,  #c2d763,  #a6bd38);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#c2d763', endColorstr='#a6bd38');
+}
+.buttonProfileGreen:hover {
+	background: #4d8eb1;
+	background: -webkit-gradient(linear, left top, left bottom, from(#a6bd38), to(#8da12f));
+	background: -moz-linear-gradient(top,  #a6bd38,  #8da12f);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6bd38', endColorstr='#8da12f');
+}
+.buttonProfileGreen:active {
+	color: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#8da12f), to(#c2d763));
+	background: -moz-linear-gradient(top,  #8da12f,  #c2d763);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#8da12f', endColorstr='#c2d763');
+}
+
+
+.btnBlue {
+	font-size: 24px;
+	color: #fff;
+	height: 36px;
+	width: 260px;
+	border: solid 1px #000;
+	background: #000;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#ddd));
+	background: -moz-linear-gradient(top,  #ccc,  #ddd);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccc', endColorstr='#ddd');
+}
+.btnBlue:hover {
+	background: #4d8eb1;
+	background: -webkit-gradient(linear, left top, left bottom, from(#4996da), to(#2e5b76));
+	background: -moz-linear-gradient(top,  #4996da,  #2e5b76);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#4996da', endColorstr='#2e5b76');
+}
+.btnBlue:active {
+	color: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#2e5b76), to(#6fc8ea));
+	background: -moz-linear-gradient(top,  #2e5b76,  #6fc8ea);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#2e5b76', endColorstr='#6fc8ea');
+}
+
+.btnBlu2 {
+	font-size: 20px;
+	color: #fff;
+	height: 41px;
+	width: 250px;
+	border: solid 1px #4d8eb1;
+	background: #4d8eb1;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	background: -webkit-gradient(linear, left top, left bottom, from(#6fc8ea), to(#4996da));
+	background: -moz-linear-gradient(top,  #6fc8ea,  #4996da);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#6fc8ea', endColorstr='#4996da');
+}
+.btnBlu2:hover {
+	background: #4d8eb1;
+	background: -webkit-gradient(linear, left top, left bottom, from(#4996da), to(#2e5b76));
+	background: -moz-linear-gradient(top,  #4996da,  #2e5b76);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#4996da', endColorstr='#2e5b76');
+}
+.btnBlu2:active {
+	color: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#2e5b76), to(#6fc8ea));
+	background: -moz-linear-gradient(top,  #2e5b76,  #6fc8ea);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#2e5b76', endColorstr='#6fc8ea');
+}
+
+.btnOJ {
+	font-size: 24px;
+	color: #fff;
+	height: 36px;
+	width: 260px;
+	border: solid 1px #000;
+	background: #000;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	background: -webkit-gradient(linear, left top, left bottom, from(#888), to(#666));
+	background: -moz-linear-gradient(top,  #888,  #666);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#888', endColorstr='#666');
+}
+.btnOJ:hover {
+	background: #f47c20;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
+	background: -moz-linear-gradient(top,  #f88e11,  #f06015);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+}
+.btnOJ:active {
+	color: #fcd3a5;
+	background: -webkit-gradient(linear, left top, left bottom, from(#666), to(#888));
+	background: -moz-linear-gradient(top,  #666,  #888);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
+}
+
+.btnSettings {
+	font-size: 17px;
+	height: 26px;
+	width: 227px;
+	color: #fff;
+	border: solid 1px #4d8eb1;
+	background: #4d8eb1;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	background: -webkit-gradient(linear, left top, left bottom, from(#6fc8ea), to(#4996da));
+	background: -moz-linear-gradient(top,  #6fc8ea,  #4996da);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#6fc8ea', endColorstr='#4996da');
+}
+.btnSettings:hover {
+	background: #4d8eb1;
+	background: -webkit-gradient(linear, left top, left bottom, from(#4996da), to(#2e5b76));
+	background: -moz-linear-gradient(top,  #4996da,  #2e5b76);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#4996da', endColorstr='#2e5b76');
+}
+.btnSettings:active {
+	color: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#2e5b76), to(#6fc8ea));
+	background: -moz-linear-gradient(top,  #2e5b76,  #6fc8ea);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#2e5b76', endColorstr='#6fc8ea');
+}
+
+
+		/* === SETTINGS === */
+	
+#settingsTopBox {
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 290px;
+	height: 32px;
+}	
+
+#imgTopBox {
+	float: left;
+	height: 30px;
+	width: 30px;
+	padding: 2px;
+	border: 1px dotted #ccc;
+	background-color: #fff;
+}	
+		
+#settingsTop {
+	float: left;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 20px;
+	line-height: 22px;
+	text-align: left;
+	margin-top: 6px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	font-weight: 600;
+}
+
+#settingsDescribe {
+	float: left;
+	font-family: 'Press Start 2P', cursive;
+	color: #e67326;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	font-weight: 600;
+	/* text-shadow: 1px 1px #373737; */
+	
+}
+
+#settingsLinkBox {
+	float: left;
+	width: 270px;
+	height: 30px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px dotted #ccc;
+	background-color: #f1f1f1;
+	padding-left: 5px;
+	padding-right: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}	
+
+#settingsBoxImg {
+	float: left;
+	height: 30px;
+	width: 30px;
+}
+
+#settingsBoxImgAlt {
+	float: left;
+	height: 20px;
+	width: 20px;
+	margin-left: 5px;
+	margin-top: 6px;
+	margin-right: 5px;
+}
+
+#settingsBoxTxt {
+	float: left;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: #82d0e5;	
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 20px;
+	text-align: left;
+	padding-left: 10px;
+	width: auto;
+	margin-top: 2px;
+
+}
+
+/* WHITE GLOVE SPECIFIC */
+
+#icon {
+	float: left;
+	padding: 5px;
+	
+}
+
+#topArea {
+	float: left;
+	padding: 5px;
+}
+
+#theatre {
+	float: left;
+	height: 95px;
+	width: 280px;
+	padding: 5px;
+	border-bottom: 1px #ccc dashed;
+}
+
+#theatre2 {
+	float: left;
+	height: 300px;
+	width: 280px;
+	padding: 5px;
+	border-bottom: 1px #ccc dashed;
+}
+
+#filmImg {
+	float: left;
+	height: 80px;
+	
+}
+
+#filmTitle {
+	float: left;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	width: 200px;
+	font-weight: 400;
+	font-size: 16px;
+	color: #314f95
+}
+
+#filmDesc {
+	float: left;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	text-align: justify;
+	width: 200px;
+	font-weight: 400;
+	font-size: 12px;
+	
+}
+
+#goButton {
+	float: right;
+	padding-top: 20px;
+	padding-right: 5px;
+	margin-top: -30px;
+}
+
+#goButton2 {
+	float: right;
+	padding-top: 20px;
+	padding-right: 15px;
+	margin-top: -30px;
+}
+
+#goButton3 {
+	float: right;
+	padding-top: 20px;
+	padding-right: 5px;
+	margin-top: -45px;
+}
+
+
+#spaceCase {
+	float: left;
+	height: 50px;
+	
+}
+
+/* WHITE GLOVE SPECIFIC */
+	/* FILM + MOVE SELECTOR CSS */
+
+#selectLeft {
+	float: left;
+	width: 135px;
+	height: 20px;
+	border-top: 1px #ccc dashed;
+	border-left: 1px #ccc dashed;
+	border-right: 1px #ccc dashed;
+	padding: 5px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+#films {
+	float: left;
+	height: 80px;
+	width: 300px;
+	padding: 5px;
+	margin-right: 2px;
+	border-bottom: 1px #ccc dashed;
+}
+
+
+#divideFilm {
+	
+	
+	
+}
+
+
+
+
